@@ -34,7 +34,7 @@ Over and above the core principles we have:
 ### Security
     - both information security and cognitive security. 
     
-# Bias
+## Bias
 When we store observations of the world we tend to assume that the observations go without saying. And then our understandings going forward which shape our view of the world are dependent on that experience. This shapes the way we interact with things that do not match that experience. This is called a cognitive blind spot - Assuming your experience is typical. 
 
 Machine learning models are not necessarily inherently objective. Engineers train models by feeding them a data set of training examples, and human involvement in the provision and curation of this data can make a model's predictions susceptible to cognitive blind spots of that engineer as well as the cultural context in which the model was developed.
@@ -63,16 +63,16 @@ Bias may be introduced through the bias in data itself or bias in the way the da
     - automation bias - systems seem more objective when actually they may not be
 #### Human bias in requirements of the system - unconscious bias with regards to the solution proposed for a problem
 
-
-# Step 1
+# 3 Steps to protect your machines from you
+## Step 1
 The first step is to check your own implicit biases, you can do that here: 
 
 https://implicit.harvard.edu/implicit/takeatest.html
 
-# Step 2
+## Step 2
 The next step is to develop with fairness in mind
 
-# Step 3
+## Step 3
 Last step: Publish with context so that anyone who comes across your work is aware, this should be done for the data you collect and the models you develop. This is done with Datasheets for your datasets and your models
 
 # Steps 2 and 3 expanded
