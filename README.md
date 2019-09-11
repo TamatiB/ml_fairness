@@ -103,9 +103,9 @@ These questions are "For dataset creators, the primary objective is to encourage
 Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J.W., Wallach, H.M., Daumé, H., & Crawford, K. (2018). Datasheets for Datasets. ArXiv, abs/1803.09010.
 
 A. Motivation
-    [ ] A.1 Purpose: For what purpose was this dataset created?
-    [ ] A.2 Creator: Who created the dataset?
-    [ ] A.3. Funding: Which party required the creation of this dataset?
+    - [ ] A.1 Purpose: For what purpose was this dataset created?
+    - [ ] A.2 Creator: Who created the dataset?
+    - [ ] A.3. Funding: Which party required the creation of this dataset?
 B. Composition
     [ ] B.1 Data format: What data mediums are present in the dataset e.g documents, photos, relational data?
     [ ] B.2 Volume: How much data is there?
