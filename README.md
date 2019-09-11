@@ -81,7 +81,8 @@ Last step: Publish with context so that anyone who comes across your work is awa
 # Steps 2 and 3 expanded
 ## There are tentatively two steps in the data process:
    
-    ### 1. EDA (Exploratory data analysis) with fairness in mind
+### 1. EDA (Exploratory data analysis) with fairness in mind
+    
 An EDA is one in order to understand the dynamics of your data. The idea of doing an EDA with fairness in mind is to ensure that the data skewness within your data-set does not result in unintentional discrimination. It is a good idea to make sure that you investigate the following to ensure they make sense (to you and contextually) for all your features, paying special attention to 
 
 1. Features that exhibit unusual behavior
@@ -99,7 +100,7 @@ Central tendency - mode, median, mean
 Dispersion - range, quartiles, interquartile range, variance/standard deviation, 
 co-movement - co-variance + correlation, linear relationships/non-linear relationships between features
 
-    ### 2. Datasheet for your dataset
+ ### 2. Datasheet for your dataset
     
 These questions are "For dataset creators, the primary objective is to encourage careful reflection on the process of creating, distributing, and maintaining a dataset, including any underlying assumptions, potential risks or harms, and implications of use. For dataset consumers, the primary objective is to ensure they have the information they need to make informed decisions about using a dataset, including information about its composition, collection process, recommended uses, and restrictions, as well as any underlying assumptions, potential risks or harms"
 
@@ -167,7 +168,9 @@ G. Maintenance
     
     
 ## There are tentatively two steps in the model process:
-    1. EMA (Exploratory model analysis) with fairness in mind
+
+### 1. EMA (Exploratory model analysis) with fairness in mind
+
 The idea of doing an EMA with fairness in mind is to ensure that the model skewness does not result in unintentional danger or harm. This includes understanding how certain features influence the accuracy results of your model. A models transparency can be investigated by checking:
 
 Model feature dependence - which features have the highest weight
@@ -182,7 +185,8 @@ https://github.com/dssg/aequitas
 
 Theres many more - https://github.com/jphall663/awesome-machine-learning-interpretability
 
-    2. Datasheet for your Model
+### 2. Datasheet for your Model
+
 When distributing your trained model with particular weights, a particular user context is embedded within that model. It is your responsibility to ensure that you are aware of the context embedded in your model but also that any user of your trained model is aware of this context. The best way to do this is with a checklist like below. (from https://github.com/drivendataorg/deon)
 
 A. Data Collection
