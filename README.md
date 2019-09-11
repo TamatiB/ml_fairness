@@ -75,6 +75,7 @@ The next step is to develop with fairness in mind
 # Step 3
 Last step: Publish with context so that anyone who comes across your work is aware, this should be done for the data you collect and the models you develop. This is done with Datasheets for your datasets and your models
 
+# Steps 2 and 3 expanded
 ## There are tentatively two steps in the data process:
    
     ### 1. EDA (Exploratory data analysis) with fairness in mind
