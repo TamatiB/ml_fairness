@@ -11,15 +11,17 @@ The aim of this page is to:
 "The Belmont Report was first written by the National Commission for the Protection of Human Services of Biomedical and Behavioral Research. Prompted in part by problems arising from the Tuskegee Syphilis Study (1932–1972: where African-American men in the study were only told they were receiving free health care from the United States government when in actuality the purpose of the study was to observe the natural history of untreated syphilis) and based on the National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1974–1978), the Department of Health, Education and Welfare (HEW) revised and expanded its regulations for the protection of human subjects 45 CFR part 46 in the late 1970s and early 1980s. The Belmont Report[2] summarizes ethical principles and guidelines for research involving human subjects. Three core principles are identified: respect for persons, beneficence, and justice. Three primary areas of application are also stated. They are informed consent, assessment of risks and benefits, and selection of subjects. According to Vollmer and Howard, the Belmont Report allows for a positive solution, which at times may be difficult to find, to future subjects who are not capable to make independent decisions. "
 
 
-Respect for Persons:
+### 1. Respect for Persons:
     - informed consent
     - respect for individuals’ autonomy
     - respect individuals impacted
     - protection for individuals with diminished autonomy or decision making capability
-Beneficence:
+    
+### 2. Beneficence:
     - Do not harm
     - assess risk
-Justice:
+    
+### 3. Justice:
     - equal consideration
     - fair distribution of benefits of research
     - fair selection of subjects
@@ -27,11 +29,12 @@ Justice:
     
 Over and above the core principles we have:
 
-### Respect for Law and Public Interest
+### 4. Respect for Law and Public Interest
     - legal due diligence
     - transparency in methods and results
     - accountability
-### Security
+    
+### 5. Security
     - both information security and cognitive security. 
     
 ## Bias
