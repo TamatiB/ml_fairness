@@ -103,51 +103,64 @@ These questions are "For dataset creators, the primary objective is to encourage
 Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J.W., Wallach, H.M., Daumé, H., & Crawford, K. (2018). Datasheets for Datasets. ArXiv, abs/1803.09010.
 
 A. Motivation
+
     - [ ] A.1 Purpose: For what purpose was this dataset created?
     - [ ] A.2 Creator: Who created the dataset?
     - [ ] A.3. Funding: Which party required the creation of this dataset?
+    
 B. Composition
-    [ ] B.1 Data format: What data mediums are present in the dataset e.g documents, photos, relational data?
-    [ ] B.2 Volume: How much data is there?
-    [ ] B.3 Sample percentage: Is the data a sample of a larger set and is it sampled at random, is there information missing?
-    [ ] B.4 Instance composition: Is the data raw or is it features?
-    [ ] B.5 Labels: Is there a label or target and is there a recommended test and train split?
-    [ ] B.6 Relationship: Are there relationships between data collections?
-    [ ] B.7 Noise: Is there noise in the dataset?
-    [ ] B.8 Source: Is the data self sourced or does it rely on external resources (e.g twitter) and will data not change?
-    [ ] B.9 Personal Information: Does the dataset contain confidential information?
-    [ ] B.10 Offensive information: Does the dataset contain disturbing information?
-    [ ] B.11 People: Does the dataset relate to people?
-B.11.11 Subpopulation: Does the dataset identify subpopulations?
-B.11.12 Privacy: Is it possible to identify individuals and their persona sensitive informatin (e.g data that reveals race, ethnicity, sexual orientation, religion)?
+
+    - [ ] B.1 Data format: What data mediums are present in the dataset e.g documents, photos, relational data?
+    - [ ] B.2 Volume: How much data is there?
+    - [ ] B.3 Sample percentage: Is the data a sample of a larger set and is it sampled at random, is there information missing?
+    - [ ] B.4 Instance composition: Is the data raw or is it features?
+    - [ ] B.5 Labels: Is there a label or target and is there a recommended test and train split?
+    - [ ] B.6 Relationship: Are there relationships between data collections?
+    - [ ] B.7 Noise: Is there noise in the dataset?
+    - [ ] B.8 Source: Is the data self sourced or does it rely on external resources (e.g twitter) and will data not change?
+    - [ ] B.9 Personal Information: Does the dataset contain confidential information?
+    - [ ] B.10 Offensive information: Does the dataset contain disturbing information?
+    - [ ] B.11 People: Does the dataset relate to people?
+    - [ ] B.11.11 Subpopulation: Does the dataset identify subpopulations?
+    - [ ] B.11.12 Privacy: Is it possible to identify individuals and their persona sensitive informatin (e.g data that reveals race, ethnicity, sexual orientation, religion)?
+
 C. Collection Process
-[ ] C.1 Acquisition: How was data acquired (e.g directly observable, reported by subjects, indirectly from other data)?
-[ ] C.2 Collection mechanism: What collection mechanism was used to collect data (e.g sensor, manual human curation, software program, API)
-[ ] C.3 Sampling: If the dataset is a subset of a larger population, what was the sampling process?
-[ ] C.4 Timeframe: What was the timeframe over which data was collected?
-[ ] C.5 Ethical considerations: Was ethical approval required for data collection, what kind?
-[ ] C.6 People: Does the dataset relate to people?
-C.6.1 Source: Did you collect data from individuals directly or from a third party?
-C.6.2 Consent: Did the individuals give consent for their data to be collected and were they given the option to revoke consent?
-C.6.3 Potential Impact: Has a potential impact analysis of this dataset on these people been conducted? 
+
+    - [ ] C.1 Acquisition: How was data acquired (e.g directly observable, reported by subjects, indirectly from other data)?
+    - [ ] C.2 Collection mechanism: What collection mechanism was used to collect data (e.g sensor, manual human curation, software program, API)
+    - [ ] C.3 Sampling: If the dataset is a subset of a larger population, what was the sampling process?
+    - [ ] C.4 Timeframe: What was the timeframe over which data was collected?
+    - [ ] C.5 Ethical considerations: Was ethical approval required for data collection, what kind?
+    - [ ] C.6 People: Does the dataset relate to people?
+        - C.6.1 Source: Did you collect data from individuals directly or from a third party?
+        - C.6.2 Consent: Did the individuals give consent for their data to be collected and were they given the option to revoke consent?
+    - [ ] C.6.3 Potential Impact: Has a potential impact analysis of this dataset on these people been conducted? 
+    
 D. Preprocessing
-[ ] D.1 Preprocessing:  Was any prepossessing conducted?
-[ ] D.2 Raw Data availability: Is the raw data available? 
-[ ] D.3 Method availability: Is the preprocessing method/software available? 
+
+    - [ ] D.1 Preprocessing:  Was any prepossessing conducted?
+    - [ ] D.2 Raw Data availability: Is the raw data available? 
+    - [ ] D.3 Method availability: Is the preprocessing method/software available? 
+    
 E. Uses
-[ ] E.1 Previous usage: Has the dataset been used previously, provide access points if available?
-[ ] E.2 Future use: Is there anything about the dataset that may impact future uses?
-[ ] E.3 Prohibited use: Are there tasks for which the dataset should not be used?
+
+    - [ ] E.1 Previous usage: Has the dataset been used previously, provide access points if available?
+    - [ ] E.2 Future use: Is there anything about the dataset that may impact future uses?
+    - [ ] E.3 Prohibited use: Are there tasks for which the dataset should not be used?
+    
 F. Distribution
-[ ] F.1 Third parties: Will/can the dataset be distributed to third parties how?
-F.1.1 How?
-F.1.2 When?
-F.1.3 Under copyright?
-[ ] F.2 Restrictions: Are there distribution restrictions?
+
+    - [ ] F.1 Third parties: Will/can the dataset be distributed to third parties how?
+        F.1.1 How?
+        F.1.2 When?
+        F.1.3 Under copyright?
+    - [ ] F.2 Restrictions: Are there distribution restrictions?
+    
 G. Maintenance
-[ ] G.1 Who: Who is maintaining the dataset if it is being maintained?
-[ ] G.2 Contact: How can the maintainer be contacted
-[ ] G.3 Updtes: Will the dataset be updated    
+
+    - [ ] G.1 Who: Who is maintaining the dataset if it is being maintained?
+    - [ ] G.2 Contact: How can the maintainer be contacted
+    - [ ] G.3 Updtes: Will the dataset be updated    
     
     
 ## There are tentatively two steps in the model process:
@@ -170,27 +183,36 @@ Theres many more - https://github.com/jphall663/awesome-machine-learning-interpr
 When distributing your trained model with particular weights, a particular user context is embedded within that model. It is your responsibility to ensure that you are aware of the context embedded in your model but also that any user of your trained model is aware of this context. The best way to do this is with a checklist like below. (from https://github.com/drivendataorg/deon)
 
 A. Data Collection
-[ ] A.1 Informed consent: If there are human subjects, have they given informed consent, where subjects affirmatively opt-in and have a clear understanding of the data uses to which they consent?
-[ ] A.2 Collection bias: Have we considered sources of bias that could be introduced during data collection and survey design and taken steps to mitigate those?
-[ ] A.3 Limit PII exposure: Have we considered ways to minimize exposure of personally identifiable information (PII) for example through anonymization or not collecting information that isn't relevant for analysis?
+
+    - [ ] A.1 Informed consent: If there are human subjects, have they given informed consent, where subjects affirmatively opt-in and have a clear understanding of the data uses to which they consent?
+    - [ ] A.2 Collection bias: Have we considered sources of bias that could be introduced during data collection and survey design and taken steps to mitigate those?
+    - [ ] A.3 Limit PII exposure: Have we considered ways to minimize exposure of personally identifiable information (PII) for example through anonymization or not collecting information that isn't relevant for analysis?
+    
 B. Data Storage
-[ ] B.1 Data security: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
-[ ] B.2 Right to be forgotten: Do we have a mechanism through which an individual can request their personal information be removed?
-[ ] B.3 Data retention plan: Is there a schedule or plan to delete the data after it is no longer needed?
+
+    - [ ] B.1 Data security: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
+    - [ ] B.2 Right to be forgotten: Do we have a mechanism through which an individual can request their personal information be removed?
+    - [ ] B.3 Data retention plan: Is there a schedule or plan to delete the data after it is no longer needed?
+    
 C. Analysis
-[ ] C.1 Missing perspectives: Have we sought to address blindspots in the analysis through engagement with relevant stakeholders (e.g., checking assumptions and discussing implications with affected communities and subject matter experts)?
-[ ] C.2 Dataset bias: Have we examined the data for possible sources of bias and taken steps to mitigate or address these biases (e.g., stereotype perpetuation, confirmation bias, imbalanced classes, or omitted confounding variables)?
-[ ] C.3 Honest representation: Are our visualizations, summary statistics, and reports designed to honestly represent the underlying data?
-[ ] C.4 Privacy in analysis: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
-[ ] C.5 Auditability: Is the process of generating the analysis well documented and reproducible if we discover issues in the future?
+
+    - [ ] C.1 Missing perspectives: Have we sought to address blindspots in the analysis through engagement with relevant stakeholders (e.g., checking assumptions and discussing implications with affected communities and subject matter experts)?
+    - [ ] C.2 Dataset bias: Have we examined the data for possible sources of bias and taken steps to mitigate or address these biases (e.g., stereotype perpetuation, confirmation bias, imbalanced classes, or omitted confounding variables)?
+    - [ ] C.3 Honest representation: Are our visualizations, summary statistics, and reports designed to honestly represent the underlying data?
+    - [ ] C.4 Privacy in analysis: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
+    - [ ] C.5 Auditability: Is the process of generating the analysis well documented and reproducible if we discover issues in the future?
+    
 D. Modeling
-[ ] D.1 Proxy discrimination: Have we ensured that the model does not rely on variables or proxies for variables that are unfairly discriminatory?
-[ ] D.2 Fairness across groups: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
-[ ] D.3 Metric selection: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
-[ ] D.4 Explainability: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
-[ ] D.5 Communicate bias: Have we communicated the shortcomings, limitations, and biases of the model to relevant stakeholders in ways that can be generally understood?
+
+    - [ ] D.1 Proxy discrimination: Have we ensured that the model does not rely on variables or proxies for variables that are unfairly discriminatory?
+    - [ ] D.2 Fairness across groups: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
+    - [ ] D.3 Metric selection: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
+    - [ ] D.4 Explainability: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
+    - [ ] D.5 Communicate bias: Have we communicated the shortcomings, limitations, and biases of the model to relevant stakeholders in ways that can be generally understood?
+    
 E. Deployment
-[ ] E.1 Redress: Have we discussed with our organization a plan for response if users are harmed by the results (e.g., how does the data science team evaluate these cases and update analysis and models to prevent future harm)?
-[ ] E.2 Roll back: Is there a way to turn off or roll back the model in production if necessary?
-[ ] E.3 Concept drift: Do we test and monitor for concept drift to ensure the model remains fair over time?
-[ ] E.4 Unintended use: Have we taken steps to identify and prevent unintended uses and abuse of the model and do we have a plan to monitor these once the model is deployed? 
+
+    - [ ] E.1 Redress: Have we discussed with our organization a plan for response if users are harmed by the results (e.g., how does the data science team evaluate these cases and update analysis and models to prevent future harm)?
+    - [ ] E.2 Roll back: Is there a way to turn off or roll back the model in production if necessary?
+    - [ ] E.3 Concept drift: Do we test and monitor for concept drift to ensure the model remains fair over time?
+    - [ ] E.4 Unintended use: Have we taken steps to identify and prevent unintended uses and abuse of the model and do we have a plan to monitor these once the model is deployed? 
