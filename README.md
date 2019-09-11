@@ -103,21 +103,21 @@ These questions are "For dataset creators, the primary objective is to encourage
 Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J.W., Wallach, H.M., Daumé, H., & Crawford, K. (2018). Datasheets for Datasets. ArXiv, abs/1803.09010.
 
 A. Motivation
-[ ] A.1 Purpose: For what purpose was this dataset created?
-[ ] A.2 Creator: Who created the dataset?
-[ ] A.3. Funding: Which party required the creation of this dataset?
+    [ ] A.1 Purpose: For what purpose was this dataset created?
+    [ ] A.2 Creator: Who created the dataset?
+    [ ] A.3. Funding: Which party required the creation of this dataset?
 B. Composition
-[ ] B.1 Data format: What data mediums are present in the dataset e.g documents, photos, relational data?
-[ ] B.2 Volume: How much data is there?
-[ ] B.3 Sample percentage: Is the data a sample of a larger set and is it sampled at random, is there information missing?
-[ ] B.4 Instance composition: Is the data raw or is it features?
-[ ] B.5 Labels: Is there a label or target and is there a recommended test and train split?
-[ ] B.6 Relationship: Are there relationships between data collections?
-[ ] B.7 Noise: Is there noise in the dataset?
-[ ] B.8 Source: Is the data self sourced or does it rely on external resources (e.g twitter) and will data not change?
-[ ] B.9 Personal Information: Does the dataset contain confidential information?
-[ ] B.10 Offensive information: Does the dataset contain disturbing information?
-[ ] B.11 People: Does the dataset relate to people?
+    [ ] B.1 Data format: What data mediums are present in the dataset e.g documents, photos, relational data?
+    [ ] B.2 Volume: How much data is there?
+    [ ] B.3 Sample percentage: Is the data a sample of a larger set and is it sampled at random, is there information missing?
+    [ ] B.4 Instance composition: Is the data raw or is it features?
+    [ ] B.5 Labels: Is there a label or target and is there a recommended test and train split?
+    [ ] B.6 Relationship: Are there relationships between data collections?
+    [ ] B.7 Noise: Is there noise in the dataset?
+    [ ] B.8 Source: Is the data self sourced or does it rely on external resources (e.g twitter) and will data not change?
+    [ ] B.9 Personal Information: Does the dataset contain confidential information?
+    [ ] B.10 Offensive information: Does the dataset contain disturbing information?
+    [ ] B.11 People: Does the dataset relate to people?
 B.11.11 Subpopulation: Does the dataset identify subpopulations?
 B.11.12 Privacy: Is it possible to identify individuals and their persona sensitive informatin (e.g data that reveals race, ethnicity, sexual orientation, religion)?
 C. Collection Process
