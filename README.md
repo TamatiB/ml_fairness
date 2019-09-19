@@ -1,3 +1,5 @@
+Note: If you cannot render the notebook, copy paste url into https://github.com/TamatiB/ml_fairness/blob/master/fairness_notebook_rsa.ipynb
+
 # Machine learning Fairness
 
 The aim of this page is to:
