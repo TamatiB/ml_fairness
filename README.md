@@ -1,6 +1,7 @@
-Note: If you cannot render the notebook, copy paste url into 
-# Machine learning Fairness
+Note: If you cannot render the notebook, copy paste url into nb viewer
 https://nbviewer.jupyter.org/
+
+# Machine learning Fairness
 
 The aim of this page is to:
 - Become aware of human unfairness that can inadvertently be reproduced by ML algorithms.
