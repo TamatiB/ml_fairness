@@ -1,6 +1,6 @@
-Note: If you cannot render the notebook, copy paste url into https://github.com/TamatiB/ml_fairness/blob/master/fairness_notebook_rsa.ipynb
-
+Note: If you cannot render the notebook, copy paste url into 
 # Machine learning Fairness
+https://nbviewer.jupyter.org/
 
 The aim of this page is to:
 - Become aware of human unfairness that can inadvertently be reproduced by ML algorithms.
