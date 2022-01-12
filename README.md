@@ -1,3 +1,6 @@
+This is my personal responsible ml repo. Its a mess :D
+
+
 Note: If you cannot render the notebook, copy paste url into nb viewer
 https://nbviewer.jupyter.org/
 
