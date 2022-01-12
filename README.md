@@ -172,7 +172,7 @@ G. Maintenance
     
 ## There are tentatively two steps in the model process:
 
-### 1. EMA (Exploratory model analysis) with fairness in mind
+### 1. EMA (Exploratory model analysis) with fairness in mind with Model Fact Sheet
 
 The idea of doing an EMA with fairness in mind is to ensure that the model skewness does not result in unintentional danger or harm. This includes understanding how certain features influence the accuracy results of your model. A models transparency can be investigated by checking:
 
